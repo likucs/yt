@@ -49,7 +49,7 @@ python3 bot.py
 ```
 <br>
 
-### [Join Telegram Bot Update Channel](https://t.me/RMProjects)
+### [Join Telegram Bot Update Channel](https://t.me/bot_help_support)
 
 ## Credits
 
