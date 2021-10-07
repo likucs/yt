@@ -16,7 +16,7 @@ start_btn = [
     ],
     [
         InlineKeyboardButton('Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support', url='t.me/ELSupport')
+        InlineKeyboardButton('Support', url='https://t.me/bot_help_support')
     ],
     [
         InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
