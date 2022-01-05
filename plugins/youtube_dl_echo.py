@@ -241,11 +241,11 @@ async def echo(bot, m: Message):
             wget.download(thumb, yt_thumb_image_path, bar=None)
         except Exception:
             await msg.edit(Presets.NOT_DOWNLOADABLE)
-            await m.delete()
+          
             await asyncio.sleep(5)
-            await msg.delete()
+            
             return
-        await msg.delete()
+       
         await m.reply_photo(photo=thumb,
                             caption=Presets.FORMAT_SELECTION.format(title,
                                                                     link,
