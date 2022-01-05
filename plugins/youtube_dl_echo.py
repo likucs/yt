@@ -29,9 +29,7 @@ ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[
 
 @Client.on_message(filters.private & filters.regex(ytregex))
 async def echo(bot, m: Message):
-    if Config.AUTH_USERS and (m.from_user.id not in Config.AUTH_USERS):
-        await m.reply_text(Presets.NOT_AUTH_TXT, reply_to_message_id=m.message_id)
-        return
+
     msg = await m.reply_text(text=Presets.CHECKING_LINK, quote=True)
     url = m.text
     youtube_dl_username = None
