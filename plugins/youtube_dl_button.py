@@ -24,7 +24,7 @@ from library.display_progress import progress_for_pyrogram, humanbytes
 if bool(os.environ.get("ENV", False)):
     from sample_config import Config
 else:
-    from config import Config
+    from sample_config import Config
 
 
 async def youtube_dl_call_back(bot, m):
