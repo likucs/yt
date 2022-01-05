@@ -16,7 +16,7 @@ from library.buttons import reply_markup_del_thumb, reply_markup_start, reply_ma
 if bool(os.environ.get("ENV", False)):
     from sample_config import Config
 else:
-    from config import Config
+    from sample_config import Config
 
 
 @Client.on_callback_query(filters.regex(r'^view_btn$'))
