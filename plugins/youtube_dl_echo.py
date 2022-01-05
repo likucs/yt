@@ -21,7 +21,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 if bool(os.environ.get("ENV", False)):
     from sample_config import Config
 else:
-    from config import Config
+    from sample_config import Config
 
 
 ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
