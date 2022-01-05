@@ -18,7 +18,7 @@ from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessa
 if bool(os.environ.get("ENV", False)):
     from sample_config import Config
 else:
-    from config import Config
+    from sample_config import Config
 
 
 @Client.on_inline_query()
