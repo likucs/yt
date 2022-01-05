@@ -18,7 +18,7 @@ from library.buttons import reply_markup_start, reply_markup_close
 if bool(os.environ.get("ENV", False)):
     from sample_config import Config
 else:
-    from config import Config
+    from sample_config import Config
 
 
 @Client.on_message(filters.private & filters.command(['start', 'help']))
