@@ -16,10 +16,10 @@ start_btn = [
     ],
     [
         InlineKeyboardButton('Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support', url='https://t.me/bot_help_support')
+        InlineKeyboardButton('💜 Support', url='https://t.me/cs_cloud')
     ],
     [
-        InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
+        InlineKeyboardButton('🔍 Search Inline', switch_inline_query_current_chat='')
     ]
 ]
 
@@ -33,7 +33,7 @@ del_thumb = [
 
 join_channel = [
     [
-        InlineKeyboardButton('⚙ Join Updates', url='https://telegram.me/bot_help_support'),
+        InlineKeyboardButton('📢 Join Updates 📢', url='https://telegram.me/cs_cloud'),
         InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
     ]
 ]
