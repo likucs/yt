@@ -10,26 +10,26 @@ EL Youtube Downloader Bot Help:
 
 >> Use inline search for selecting video or send a youtube link to start download.
 
-Join <a href='https://t.me/bot_help_support'>Update Channel</a> | Github <a href='https://github.com/fadilmk'>Link</a>   
+Join <a href='https://t.me/cs_cloud'>📢 Update Channel</a> | 🌟 Owner <a href='https://t.me/iAmLiKu1'>Link</a>   
     """
-    WELCOME_MSG = "Hi {},\nI'm a simple Youtube Downloader Bot.\nAlso, you can use me to search videos inline."
-    OPTIONS_TXT = "I am a youtube downloader bot.\nYou can use me to search videos inline."
-    RESULTS_TXT = "Search Results:"
+    WELCOME_MSG = "Hi {},\nI'm a simple Youtube Downloader Bot.\nAlso, you can use me to search videos inline.Made with love @cs_cloud"
+    OPTIONS_TXT = "I am a youtube downloader bot.\nYou can use me to search videos inline.Made By @iAmLiKu1"
+    RESULTS_TXT = "🌐 Search Results:"
     NO_RESULTS = "No results, change search keyword & try:"
-    DESCRIPTION = "Duration: {} || {}"
+    DESCRIPTION = "⏰ Duration: {} || {}"
     NOT_AUTH_TXT = "You are not authorised to use the bot"
     DEFAULT_TITLE = "Source Code"
     DEFAULT_THUMB_URL = "https://image.flaticon.com/icons/png/512/25/25231.png"
-    DEFAULT_LINK = "https://github.com/EL-Coders/ELYoutubeBot"
+    DEFAULT_LINK = "https://github.com/likucs"
     DEFAULT_DESCRIPTION = "FADILMK - Github"
     DEV_TITLE = "Developer"
     DEV_THUMB_URL = "https://freepikpsd.com/media/2019/10/software-developer-icon-png-2-Transparent-Images.png"
-    DEV_LINK = "https://t.me/fadil_mk"
+    DEV_LINK = "https://t.me/iAmLiKu1"
     DEV_DESCRIPTION = "EL Coder - Telegram"
     SHARE_BUTTON_TEXT = "Hi..  👋\nCheckout : @{username}\nFor searching & downloading & youtube videos"
     SAVED_THUMB = "<b>Thumbnail Saved Successfully</b>\n<code>This file will be used in next YouTube " \
                   "downloads until you clear it !</code> "
-    WAIT_MESSAGE = "Please wait..!"
+    WAIT_MESSAGE = "🤥 Please wait..!"
     THUMB_CAPTION = "<code>This image is your current thumbnail, Tap </code><b> DEL THUMB </b><code> if you wish to " \
                     "clear it !</code> "
     NO_THUMB = "There are no thumbnails saved, please send one !"
@@ -41,9 +41,9 @@ Join <a href='https://t.me/bot_help_support'>Update Channel</a> | Github <a href
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     FINISHED_PROGRESS_STR = "◼️"
     UN_FINISHED_PROGRESS_STR = "◻️"
-    CHECKING_LINK = "Checking Link.. Please wait"
-    DOWNLOAD_START = "Downloading... Please wait !"
-    UPLOAD_START = "Uploading to telegram..."
+    CHECKING_LINK = "🤓 Checking Link.. Please wait"
+    DOWNLOAD_START = "🚀 Downloading... Please wait !"
+    UPLOAD_START = "📈 Uploading to telegram..."
     NOT_DOWNLOADABLE = "URL not available !"
     CANCEL_PROCESS = "<b>Process Cancelled Successfully</b>  ✅"
     SEND_TEXT = "<b>Processing...</b>\n<i>This message will automatically disappear when the broadcasting is finished</i> "
@@ -61,7 +61,7 @@ Join <a href='https://t.me/bot_help_support'>Update Channel</a> | Github <a href
     """
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
-    CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<code>{}</code>\n\n<b>Join - </b><b><a href='https://t.me/bot_help_support'>Channel</a></b>"
+    CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<code>{}</code>\n\n<b>Join - </b><b><a href='https://t.me/cs_cloud'>Channel</a></b>"
     RCHD_TG_API_LIMIT = "Detected File Size: {}\nSorry. But, I cannot upload files " \
                         "greater than 1.95GB due to Telegram API limitations."
     AD_STRING_TO_REPLACE = "please report this issue on https://yt-dl.org/bug . Make sure you are using the " \
